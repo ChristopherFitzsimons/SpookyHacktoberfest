@@ -4,6 +4,8 @@ import json
 import time
 import re
 
+# Adding Comment to know this is an approved script ;)
+
 # Action (connect or steer)
 action = sys.argv[1]
 ignore = {}
@@ -231,6 +233,6 @@ elif action == "steer":
                     else:
                         print('No valid Id given')
             except:
-                print("Invalid Input")
+                print("Invalid Input Given")
 else:
-    print('No action given')
+    print('No action given to the script')
